@@ -22,8 +22,6 @@ fraction fractfun(fraction *fractInput, int n){
    	deno *= fractInput[i].deno;
    	for(i=0;i<n;i++)
    	num += fractInput[i].num * (deno/(fractInput[i].deno));
-printf("%d\n",deno);
-printf("%d\n",num );
    	fraction fractresult;
    	fractresult.num=num;
    	fractresult.deno=deno;
